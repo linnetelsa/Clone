@@ -1,0 +1,23 @@
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .category {
+    text-align: center;
+  }
+  
+  .category__icon {
+    font-size: 2rem;
+    color: #2874f0;
+  }
+  
+  .category p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,34 @@
+.additional-section {
+    padding: 20px;
+  }
+  
+  .additional-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .additional-section__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Single row with three columns */
+    gap: 15px;
+  }
+  
+  .additional-section-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .additional-section-card__image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .additional-section-card p {
+    color: #ff5722;
+    font-weight: 700;
+  }
+  

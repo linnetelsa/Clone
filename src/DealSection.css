@@ -1,0 +1,43 @@
+.deal-section {
+    padding: 20px;
+  }
+  
+  .deal-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .deal-section__cards {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+  }
+  
+  .deal-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+  }
+  
+  .deal-card__image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .deal-card__details {
+    padding: 10px;
+  }
+  
+  .deal-card__name {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .deal-card__price {
+    color: #ff5722;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  

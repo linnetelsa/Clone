@@ -1,0 +1,33 @@
+.featured-brands {
+  padding: 20px;
+}
+
+.featured-brands h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.featured-brands__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* Single row with three columns */
+  gap: 15px;
+}
+
+.featured-brand-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.featured-brand-card__image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.featured-brand-card p {
+  color: black;
+  font-weight: 700;
+}
